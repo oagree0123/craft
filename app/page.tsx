@@ -1,9 +1,9 @@
-import DragBox from '@/components/DragBox';
+import KanbanBoard from '@/components/board/KanbanBoard';
 
 export default function Home() {
   return (
     <div>
-      <DragBox />
+      <KanbanBoard />
     </div>
   );
 }
